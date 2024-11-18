@@ -1,0 +1,57 @@
+/* section styling  */
+/* Section.css */
+
+/* Section that contains the cards */
+.card-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap; /* Allows wrapping of cards on smaller screens */
+    margin-top: 40px;
+  }
+  
+
+/* Card styling */
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
+  .card p {
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+    display: none;
+  }
+  
+  .card button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+  }
+  

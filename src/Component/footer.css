@@ -1,0 +1,27 @@
+/* Footer.css */
+.footer {
+    background-color: #333; /* Same color as navbar */
+    color: white; /* Text color */
+    padding: 2rem; /* Padding around the footer */
+    text-align: center; /* Center text */
+    border-top: 1px solid #ccc; /* Optional: Top border for separation */
+}
+
+.quote {
+    font-size: 1.25rem; /* Font size for the quote */
+    margin-bottom: 1rem; /* Space below the quote */
+    font-style: italic; /* Italic style for the quote */
+}
+
+.contact-info {
+    margin-top: 1rem; /* Space above contact info */
+}
+
+.contact-info h4 {
+    margin-bottom: 0.5rem; /* Space below the heading */
+}
+
+.contact-info p {
+    margin: 0.25rem 0; /* Space between contact info lines */
+    font-size: 1rem; /* Font size for contact info */
+}
